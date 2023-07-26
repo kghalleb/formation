@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello Karim'
+                echo 'Hello Karim' >./print.txt
             }
         }
     }
